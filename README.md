@@ -1,5 +1,7 @@
 # Tmux Config
 
-# rebinds ctrl + b -> ctrl + a and more
+better tmux config for servers
 
-git clone
+rebinds ctrl + b -> ctrl + a and more
+
+git clone https://github.com/Peteskiis/tmux-config
