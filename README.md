@@ -4,9 +4,12 @@ An easy tmux config for use on servers
 rebinds ctrl + b -> ctrl + a and more
 
 1. Clone the repo
-   git clone https://github.com/Peteskiis/tmux-config
 
-2. Rename Folder
+```bash
+   git clone https://github.com/Peteskiis/tmux-config
+```
+
+2. Rename Folder and make sure it's in $HOME ~/.tmux
 
 ```bash
 mv tmux-config ~/.tmux
@@ -20,7 +23,13 @@ cd ~/.tmux
 mv .tmux.conf ../
 ```
 
-4. Start Tmux and source the new config file
+4. Clone TPM
+
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+5. Start Tmux and source the new config file
 
 ```bash
 tmux
@@ -28,10 +37,10 @@ tmux
 tmux source ~/.tmux.conf
 ```
 
-5. Install TPM and the plugins
+6. Install TPM and the plugins
 
 ```bash
 crtl + a + I
 ```
 
-6. Done! Enjoy
+Done! Enjoy
